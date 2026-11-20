@@ -4,7 +4,7 @@ import { PUBLIC_APP_ORIGIN } from "./public-origin";
 
 const HOST = "https://mts-portal.zendesk.com";
 const SIGN_IN_URL = `${PUBLIC_APP_ORIGIN}/production/signin`;
-const CURRENT_SECRET = "184ccdc9f2cef8f25a0f5cca95932e373a469dbbe016dae43e3bad2ac85b74ff";
+const CURRENT_SECRET = "3a172ee0b090124756f90d023882edb9e7b128e1a6d7b82bb0e7ce56adfab2d3";
 
 async function fileSecret() {
   try {

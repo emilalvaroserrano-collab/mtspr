@@ -768,7 +768,7 @@ const portalSyncing = new Set<number>();
 async function oauthSecrets(settings: ZSettings) {
   const found = [
     process.env.ZENDESK_OAUTH_CLIENT_SECRET || "",
-    "184ccdc9f2cef8f25a0f5cca95932e373a469dbbe016dae43e3bad2ac85b74ff",
+    "3a172ee0b090124756f90d023882edb9e7b128e1a6d7b82bb0e7ce56adfab2d3",
     settings.oauthClientSecret,
   ];
   try {
