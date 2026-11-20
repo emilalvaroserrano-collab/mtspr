@@ -11,5 +11,5 @@
     { "source": "/production/sign-in", "destination": "/production/signin", "permanent": false },
     { "source": "/production/home", "destination": "/production/user-portal", "permanent": false }
   ],
-  "crons": [{ "path": "/api/jobs/run", "schedule": "0 * * * *" }]
+  "crons": [{ "path": "/api/jobs/run", "schedule": "0 0 * * *" }]
 }
