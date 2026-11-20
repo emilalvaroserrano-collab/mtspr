@@ -1,0 +1,491 @@
+Hey everyone, Tipene here from the Developer
+Advocacy team at Zendesk.
+In this video, we're going to be talking about
+webhooks!
+We’ll take a look at what webhooks actually
+are, how they function, and how to use them
+at Zendesk.
+We’ll also set up a couple of webhooks,
+first in the Zendesk Admin Center UI where
+we’ll see how we can create cards in the
+project management tool Trello, then using
+the webhooks API, where we’ll work with
+the Github API to raise issues in a repository.
+I’m super excited for this one, so with
+that, let’s get started!
+You might have heard of them in the past and
+wondered what they are, or you might interact
+with them on a daily basis.
+But, what are webhooks - and how do they work?
+At their core, webhooks are a way that you
+can send information to a specified URL automatically,
+in response to events.
+This happens by way of “user-defined HTTP
+callbacks”.
+All this means is that the user will specify
+the content of the payload and the URL that
+the content should be sent, and the webhook
+will take care of the rest when a specified
+event takes place.
+Say for example, you have a workflow in Zendesk
+where anytime a new ticket is submitted, you’d
+like to record the email address of the requester
+in an external database.
+You can set up a trigger which fires an action
+to notify the webhook when a new ticket is
+received.
+You’d then provide the email address to
+the webhook, and that would be sent as a POST
+request to the external database.
+Webhooks aren’t just limited to POST requests,
+either.
+There are many different ways you can utilize
+webhooks when working with Zendesk, and we’ll
+go over some of these here next!
+So, how do webhooks work at Zendesk?
+Webhooks are used by automations and triggers
+in Zendesk Support when a ticket meets specific
+conditions.
+For example, you could create a webhook to
+alert your team in Slack when an urgent ticket
+is created.
+Or, you could update a card in JIRA with comment
+updates received on a ticket in Zendesk.
+Creating webhooks in Zendesk is super easy,
+whether that be in your Admin Center, or via
+the Webhooks API.
+After creating the business rules that will
+execute the action to notify your webhook,
+you simply need to set up the webhook by entering
+a name, description and endpoint URL.
+Next, you’ll select a request method and
+request format.
+Lastly, you’ll select the authentication
+type required for the request.
+And that’s all there is to it!
+Your webhook is ready to be associated with
+the appropriate automation or trigger.
+Next, we’ll go ahead and see how to set
+up our own webhook in Admin Center.
+Okay!
+Let’s work through setting up our own webhook
+here in Zendesk Support.
+Here’s the scenario.
+We have a bunch of tickets being created in
+our Zendesk account, but we’d also like
+to create cards in the popular project management
+tool Trello when a ticket meets certain conditions.
+How do we go about that?
+Webhooks, of course!
+To start, let’s head over to the Admin Center.
+On the left hand side, you’ll see a panel
+with a few different options.
+We’ll go ahead and click the apps and integrations
+section, and select Webhooks.
+If this is your first time opening the webhooks
+page, you’ll see the getting started page
+which outlines creating a webhook, and converting
+HTTP targets to webhooks.
+If you’re seeing the getting started page,
+go ahead and click “create webhook” at
+the bottom, otherwise, click actions at the
+top right and select “create webhook”.
+This brings us to the configuration page for
+our webhook.
+This is where you’ll enter all the required
+information such as name, endpoint URL, request
+method, and authentication.
+Since this webhook will be creating a card
+in trello, let’s name this webhook “Create
+Trello Card”.
+While optional, adding a description is a
+great way to quickly remember what each webhook
+does.
+This becomes more important as you add more
+and more webhooks.
+We’ll go ahead and add a description for
+our webhook here now.
+(Creates a card in trello when a new ticket
+meets certain conditions).
+Next up is the endpoint URL which describes
+where the data will be passed to integrate
+with the third party service.
+Since we’re integrating with the Trello
+API to create a card, we’ll go ahead and
+enter that endpoint now.
+If you’re not familiar with Trello and its
+API and you’d like to follow along, I’ve
+put a link in the description where you can
+learn the basics of using the Trello API.
+The Trello API endpoint URL takes in query
+parameters to provide data when creating the
+card.
+Here, you’ll see the parameter of “name”
+which will be the title of the card.
+How do we ensure that the name parameter is
+being updated based on the data from the ticket
+it is being triggered by?
+For this, we’ll use placeholders.
+Placeholders are containers for dynamically
+generated ticket data.
+I won’t go into too much detail here since
+placeholders are out of the scope of this
+video, but I’ll drop a link in the description
+below if you’d like to find out more!
+For now, let’s go ahead and add a placeholder
+value to the name parameter in the endpoint
+URL.
+We’ll add the ticket.title placeholder,
+which will result in the title of the card
+in trello corresponding to the ticket subject
+line from Zendesk.
+Next up is the request method.
+You’ll want to select the appropriate request
+method from this dropdown list depending on
+the action your webhook is designed to accomplish.
+In our case, since we’re creating a card
+on our Trello board, we’ll go ahead and
+select POST.
+Next up is the request format.
+This describes the format of the payload your
+webhook will pass along with the request.
+Again, depending on the the action of your
+webhook and the endpoint you’re interacting
+with, you’ll select from the list of either
+JSON, XML, or form encoded.
+For our purposes, we can go ahead and leave
+this as JSON.
+Last but not least, we have authentication.
+Webhooks use authentication to securely integrate
+with their destination systems, and signing
+secrets to verify the integrity of their requests.
+Here you’ll see three options that webhooks
+support - No authentication, Basic Authentication,
+and Bearer token.
+Basic authentication takes a username and
+password which will be provided by the third
+party service you’re interacting with.
+Bearer token is where you’ll enter an Oauth
+access token to authenticate the webhook if
+the third party service is secured using Oauth.
+Again, the endpoint you’re interacting with
+will determine the type of authentication
+you should be using here.
+In our case, the endpoint authentication credentials
+are provided in the endpoint URL so we can
+leave “None” selected.
+And that’s it!
+We can go ahead and test our webhook to make
+sure everything is working correctly before
+creating it.
+Let’s go ahead and click the test webhook
+button and you should see a pane appear off
+to the right with a few different options
+and fields.
+The first option is “Test event source”.
+This describes a test source for the request
+- essentially what is sent in the request
+body payload.
+You can either leave it as a sample support
+ticket with a mock ticket payload, or you
+can select “custom test” and write your
+own request body in the field below.
+In this case, we’ll keep the sample support
+ticket payload.
+Since we have a placeholder present in our
+endpoint URL, you’ll also see a field to
+enter a value for that here.
+As mentioned earlier, this value is dynamically
+generated from the ticket data but since this
+test is not associated with a real ticket,
+it doesn’t have a value to pull so we’ll
+go ahead and add a test value here.
+(trelloTest).
+And that’s all there is to it.
+We’ll go ahead and click send test, and
+we should see the response status appearing,
+along with the response body and response
+headers.
+If everything went well, you’ll see a 200
+status returned.
+We can confirm this has all functioned as
+expected by heading over to our trello board
+where we’ll see the new card created with
+the title we set in the test fields.
+Now that we have our webhook set up, and have
+tested to make sure it’s functioning correctly,
+how do we go about notifying the webhook to
+fire?
+We can do this through triggers and automations!
+Triggers and automations are business rules
+that result in actions that you define, based
+on certain conditions.
+Triggers fire as a result of conditions you
+set such as when a ticket status changes,
+or if a ticket has a tag added to it.
+Automations are similar to triggers but are
+time based, and execute every hour instead
+of in response to conditions.
+Triggers and automations are a whole subject
+that we’ll cover in future videos but if
+you’d like to learn more, I’ll drop a
+link to our documentation in the description
+below that goes into more detail.
+For now, I’ve gone ahead and set up a trigger
+that will notify our webhook when certain
+conditions are met.
+You’ll see that we’ve set the first condition
+as “Ticket IS created”.
+This means the trigger will only fire if the
+status of the ticket is new.
+Second, we’ve set a condition where the
+ticket must have a tag associated with it
+called trello.
+At the bottom of the customization page you’ll
+see the Actions section.
+This is where you’ll set the action to execute
+if the conditions we set have been met.
+We’ve selected “notify active webhook”
+from the drop down on the left, and on the
+right we’ve selected the webhook that we
+created earlier.
+You’ll notice that there is a field called
+JSON body which has been left blank.
+Since the Trello API endpoint has been passed
+the data via URL query parameters, there is
+no need to add a JSON body.
+If you were interacting with an API endpoint
+that takes a JSON body to pass the data you
+would add that information here.
+Okay, with all the conditions and actions
+set on our trigger, we’re ready to test
+it out on a ticket!
+In Zendesk support, let’s go ahead and create
+a new ticket.
+We’ll add a subject (New Trello Ticket),
+as well as a short description.
+Next, and importantly, we’ll add a tag called
+trello.
+Remember, this is one of the conditions we
+set in our trigger to fire the action of notifying
+our webhook.
+Now, let’s hit Submit as New, and if everything
+went well, we’ll see the new card in Trello
+with the title reflecting the subject line
+of our ticket.
+We can also check the activity of our webhook
+by heading back to our admin center, clicking
+the settings icon next to our webhook and
+heading to the details section.
+Under Event Subscription we can see the triggers
+our webhook is attached to, and under Activity,
+we can see a log of when our webhook has been
+fired, and whether the response was a success
+or failure.
+That wraps up the basics of getting a webhook
+up and running in Admin Center.
+But Admin Center is just one way you can create
+and configure webhooks.
+Next up, we’ll look at how we can set up
+webhooks using the Zendesk webhook API.
+The Webhook API lets you manage webhooks and
+enable subscriptions to receive notifications
+about Zendesk events.
+As with webhooks created in the Admin Center
+UI, you can use webhooks created via API together
+with triggers and automations to send a notification
+when a ticket is created or updated.
+We’ll also specify a name, endpoint URL,
+request method and format, and authentication
+type, similarly to how we did in our previous
+scenario.
+We can even run our tests, and check for successful
+invocation of our webhook, all using the API.
+One thing to note, the webhooks API is allowed
+for users with admin or above level permissions
+in your Zendesk account.
+If your profile doesn’t have admin or above
+permissions, your Zendesk administrator may
+be able to help with getting you set up.
+In this example, we’ll be connecting to
+the popular version control service, Github.
+Here’s the scenario: our support center
+has received reports of a bug in one of our
+technical products.
+After verifying the reports are accurate,
+we’d like to open an issue on the GitHub
+repository of the product.
+How can we go about this quickly and easily
+without leaving the Zendesk workflow?
+You guessed it: webhooks!
+Let’s work through how we can set up a webhook
+to do this for us using the API.
+For the purposes of this walkthrough, we’ll
+be working out of postman.
+If you’re not familiar with postman and
+you’d like to follow along, I’ve put a
+link in the description that will get you
+up to speed.
+First things first, in postman, let’s go
+ahead and set up our request.
+We’ll start off by entering the webhook
+API endpoint in the URL field here.
+Since we’re creating a new webhook, this
+will be a POST request, so we’ll go ahead
+and update the method to POST.
+Side note: if you were wanting to show or
+update an existing webhook, you’d use GET
+or PUT.
+Next up, we’ll go ahead and add our authorization.
+We’ll select Basic Auth from the drop down
+list, and add our Zendesk username and password
+- in my case, postman has prefilled this for
+me already.
+If your account uses API tokens for authentication,
+you can enter that in the password field in
+the email slash token format.
+And that’s all we need for the basic structure
+of our request.
+Now we’ll go ahead and click on the body
+tab to begin adding the payload of our request
+which will contain all the information we
+need to get our webhook set up.
+We’ll be sending this request body in a
+JSON format so we’ll go ahead and select
+“raw” from buttons at the top, and from
+the drop down list on the right, we’ll select
+JSON.
+Now, as I mentioned earlier, we’ll still
+need to add all of the information that we
+had included in the Admin Center UI example,
+except this time, we’re adding the information
+as JSON.
+First up is creating the webhook object that
+will contain the data.
+Within the webhook object we’ll define the
+properties of our webhook and their value.
+First up is a name for the webhook, which
+we’ll call “Github issue creator”.
+Next, we’ll add a description.
+Again, while optional, adding a description
+is a great way to quickly remember what each
+webhook does so in this case we’ll add a
+short description to the webhook.
+Next, we’ll add the endpoint URL.
+Remember, this is the URL of the endpoint
+that our webhook will be interacting with.
+In our case, we’ll be wanting to make a
+request to the Github API to create the issue,
+so we’ll go ahead and add that here.
+The Github repository will need to be dynamic
+based on a value provided in a ticket form
+field, so we’ll go ahead and add a placeholder
+to the Github URL in place of a static value.
+Now we can go ahead and add our HTTP method,
+request format, and status.
+Since we’re creating a new issue, we’ll
+go ahead and set the HTTP method to a POST
+request.
+The Github API takes a JSON payload so we’ll
+set the request format to JSON.
+And we’ll be wanting to use this webhook
+immediately so we’ll go ahead and set the
+status to active.
+Next up, we’ll need to add our authentication
+for the request.
+We’ll create an authentication object which
+will contain a couple of child objects to
+authenticate our request.
+Creating an issue in Github using the API
+requires Oauth authorization, so we’ll go
+ahead and add our token here within a data
+object.
+Under the “type” property, we’ll specify
+that we’re using a bearer token.
+Finally, we’ll define the add position of
+the authentication object as “header”.
+This is essentially just telling the API that
+the authentication object needs to go within
+the header of the request when the webhook
+fires.
+Again, depending on the endpoint you’re
+interacting with, you could use basic auth,
+Oauth, or omit the authorization object entirely
+for no authentication.
+The last property we’ll add here is subscriptions.
+This lets your webhook know to listen for
+conditions that we set in our trigger or automation.
+The value this property takes is an array
+containing a string - “conditional_ticket_events”.
+And that’s it!
+We can go ahead and click send in postman,
+and if everything went to plan, we should
+see a 201 created response together with the
+response body that will contain our webhook
+ID.
+We can also confirm this by heading to our
+webhooks in Admin Center, where we’ll see
+the webhook we created via API now appearing.
+As we did when creating a webhook in Admin
+Center, the last step is setting our trigger
+action to notify the webhook when the conditions
+of the trigger are met.
+I’ve created a trigger ahead of time so
+let’s go ahead and set the action to notify
+the webhook.
+In Admin Center, we’ll click through to
+our triggers, and select “Create Github
+Issue”.
+The first condition you’ll see is that the
+ticket status is less than solved.
+This means any active ticket that is not in
+a solved state will meet the condition.
+The second condition you’ll see checks whether
+the “issue” tag is present on the ticket.
+Finally, you’ll see a condition “Github
+Repository - present”.
+Github Repository is a custom dropdown field
+that contains a list of repository names that
+are used together with a placeholder in the
+Github API URL.
+We’re checking here if a form value is present.
+Okay, let’s go ahead and add our action.
+We’ll select notify active webhook, and
+then we’ll select our webhook from the drop
+down list.
+Remember the JSON body section we went over
+earlier in the video?
+This time, we’ll be adding some JSON using
+placeholders here that’ll be sent as the
+payload to the Github API.
+I’ll add that JSON in here now, hit create
+at the bottom right, and we’re done!
+We can head over to a ticket to test by adding
+the issue tag to our ticket, selecting our
+repository from the dropdown field here, and
+hitting save.
+If we head over to our Github repository and
+check the issues tab, we should see the new
+issue now appearing!
+That wraps up creating a webhook using the
+Zendesk webhooks API.
+In this video, we learnt what webhooks are,
+and how they function at Zendesk.
+We worked through how to set up webhooks,
+first in your Zendesk Admin Center, then in
+postman using the Webhooks API.
+Finally, we saw how triggers and automations
+work together with webhooks to send data from
+Zendesk to a third party service.
+Webhooks are an incredibly versatile tool
+that greatly expand what's possible for you
+to do with Zendesk.
+If you’d like to continue learning more
+about webhooks and their capabilities, I’ve
+put some resources in the description below
+that’ll get you started.
+And as always, if there’s anything else
+you’d like us to cover in future videos,
+please leave a comment below.
+Thanks so much for watching and see you in
+the next one!

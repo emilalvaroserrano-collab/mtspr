@@ -1,0 +1,558 @@
+Now, let me show you the coolest part of
+creating a procedure in Zenesk Advanced
+AI. Generate procedure. Here we go. Here
+it is. Right? You see this? Generated a
+procedure for me. Start, collect,
+identify, invoice number, collect,
+request changes, submit verification
+request, confirm to user. All right. So,
+this is what my procedure looks like.
+It's created a version one. I organized
+the flow into sequential subflows. Good
+for you, bro. Zesk Advanced AI is now at
+its most mature phase. And today I'm
+going to walk you through on what that
+looks like. My name is Dominic, customer
+experience guy, CCXP now. I've been a
+Zenes consultant. This is my 13th year.
+And since waters have calmed down and
+Zenesk has kind of started to figure out
+what is doing with AI and everybody for
+that matter has started to figure out
+what's going on. The waters are somewhat
+stable and I'm able to show you
+something cool like this is a mature
+product. Looks good. It works well and
+it will supercharge your automation. So
+this can automate up to 80% of your
+tickets. In this video, we're going to
+look at what's new, what it looks like,
+the Zenesk advanced AI. We're going to
+build out a use case, and we're going to
+look at prices. How much does this
+actually cost? So, by the end of this
+video, you'll have the tools and the
+courage to go in and Zenesk and build
+this stuff out yourself. Before we
+continue, please like and subscribe to
+this YouTube channel. I'd be so
+grateful. I keep forgetting about asking
+you guys and numbers show it. Only like
+6% of you are subscribing now. So, let's
+continue with the video. This version of
+advanced AI is something that supposedly
+Zanask is going to roll out to
+everybody. Now, it doesn't matter what
+kind of account you're on. You can go
+ahead set it up yourself and then they
+will just charge you based on
+resolutions. Allegedly, I don't know how
+things are going to change. Things have
+changed so much recently. If you've been
+on this channel, I've covered Zandesk
+and the AI stuff it had going on up to a
+point when it started to be too
+confusing. And to everybody's credit,
+everybody was very confused on where
+this was going. But Zenes has cooked and
+has cooked well. I'm in my Zenesk and
+now at the menu here from the left
+[music] drop down I can scroll down to
+AI agents. Now if you don't see this
+exact interface it's because it's not
+been rolled out to you. You're going to
+see this is a whole universe itself. So
+this is the ultimate AI functionality.
+It's a startup that Zenes bought like
+maybe 2 3 years ago and they have
+gatekept this information from you
+because they wanted you to upgrade then
+they wanted to sell you a platform fee.
+They didn't wanted to set you a setup
+fee and then they wanted to charge you
+based on resolutions and all [music]
+this because you know AI was so new and
+the greediness was high. Now it's a
+little bit more stable fortunately. So
+look the dashboard super uninteresting
+very quickly. Now we're going to have
+some reports where you see how the bot
+is doing. By far the most interesting
+and the place where you spend most time
+configuring this is the content. Then
+you have conversation logs like the
+conversation the bot has some settings
+like with language and blah. AI
+management super generic doesn't matter.
+for organization management doesn't
+matter. This one is the second most
+interesting one. API integrations and
+then custom CRM. So these are the three
+most [music] important one. So API
+integrations with CRM, customer
+relationship management systems. Now
+let's go back to content. So the content
+menu has use cases, templates and
+segments. These are how the agent
+responds. This is the equivalent if you
+want of its brain. This is its logic,
+its conversation flows. So this is what
+makes the difference in how smart it can
+be. Now the knowledge and search rules.
+This is what the agent knows. This is
+what you feed it. This is like when you
+give it books to read up on you know
+becoming an expert in something. And
+then actions and entities. This is what
+the bot can actually do and what it can
+collect. So this is what is like kapow
+let's do stuff. And then the
+personalization is uh how the bot
+sounds. Now point number two on this
+video is going to be the use cases.
+Let's talk about a use case. Now use
+cases are the flows that run through
+your business that run through your
+support system what exactly you want
+your bot to do like what you cover
+essentially. So in your business
+depending on the complexity depending on
+the maturity of your company you can
+have like from five use cases you can
+have up to 50 [music] to 500. So this is
+very custom from niche to niche and each
+niche with each business has its own
+particular stuff [music] because
+everybody's unique. So today we're going
+to tackle a use case that I have to deal
+with as a business owner quite often.
+And that is I use my company credit card
+to pay for services. And because some of
+these services either don't ask you for
+your company details when you pay, you
+have to add them later on. And that's a
+bit stressful cuz I always have to add
+my [music] freaking company details
+afterwards. And sometimes they're like,
+"Oh, sorry. We charged you already. So
+just from the next invoice on, we're
+going to be able to add your company
+details." But anyway, this is a case
+where I pay with my company credit cards
+and then I'm like, "Bro, I paid I have
+to justify the cost. Give me my invoice
+with my company details so it reflects
+right so I can deduce for tax purposes."
+Now, bear in mind, we're going to build
+out one use case. You need dozens in
+your business. Okay? So, what I'm trying
+to hint at as well is that this is part
+of a long series of videos that I will
+be making about Zenesk Advanced AI,
+right? cuz today we're just going to
+cover let's create a use case with the
+help of which by the end of this video
+you'll be able to do stuff on your own.
+By the way, if you enjoy the content,
+I'd be really grateful if you subscribe
+to this YouTube channel and you let me
+know what you think in the comments and
+I will get back to you. I'd be really
+grateful and thank you so much. So,
+let's create a use case here on the top
+right. Uh let's create a use case and
+let's call this modify billing details.
+Modify billing details. This is what I
+[music] want. Okay. Customer request
+reason. So example, customer writes and
+asks to change their billing details.
+Good. Select a category. I don't have a
+category. Let's create this. Boom. So
+now you have to understand the
+difference between procedure and
+dialogue. So a procedure is something
+which the bot has kind of a freehand
+thing. You give it some steps to follow
+and it generates its own answers. And
+dialogue is something like fixed in
+stone. It's very very clear on what it's
+supposed to do. It does not ever
+deviate. I like the procedure cuz it's a
+little bit more modern. It's a little
+bit cooler and it leaves space to have
+like a conversation, a normal
+conversation. It doesn't feel so
+robotic. The dialogue very robotic and
+the procedure is more like a hey, how
+are you? Let's do it. Let's uh change
+it. So in here below I have some other
+use cases that I have built out. So
+damaged item, refund, order status. As
+you can see, there are some system
+replies. These are some dialogues which
+are by default which you need. For
+example, knowledge reply. when the bot
+finds something in the knowledge base
+and replies then you have an escalation
+reply then you have a technical response
+you have a welcome reply so like hey how
+are you right these kinds of things and
+asking for example for bot satisfaction
+like how good was my response these are
+all already pre-built for you because
+you need them anyway okay so now you
+start personalizing this okay so now
+let's go to modify billing details let's
+click uh our baby up what I can do now
+is okay so reply method use procedure or
+use the dialogue. I'm going to leave it
+to use procedure. I can go here and
+create procedure. And we're not going to
+do that just yet. Right now, what we
+need to do is to define our use case. So
+my procedure looks more or less
+something like this. So this is why I
+like procedure so much. How you can
+think about this is like a very logical
+one, two, three, what's supposed to
+happen thing, which I like a lot because
+it gives me [music] space to think like
+a human or like I think. So, first thing
+like when you want to change an email,
+what do you want to do? What do you have
+to do? Like what would an agent need to
+do? Like what would a human need to do?
+Somebody comes in and says, "I [music]
+want to change my billing details or I
+want you to add my company details."
+Well, who are you? Give me your email
+address, [music] Mr. Sir, Madam, they,
+whatever. Just give me your email
+address so I can verify you. Okay, then.
+Okay. What invoice would you like me to
+change? Can you tell me your invoice
+number? Right. Logical. Then what do I
+have to do? I have to go in and search
+like, is this an actual person? Is this
+invoice actually exists? Oh yes, here it
+is. Or no, I don't know this person or I
+don't know this invoice. Then I've
+identified it. All good. I have to ask,
+what would you like to change? Would you
+like to change your name, your address,
+your tax ID, whatever. Then once they
+give me their information and it's valid
+and it's good and I find it, I ask,
+okay, what would you like to change? And
+then they give me that information and
+then I save it and I'm done. So from
+this procedure, I want to draw your
+attention to step number three. Call
+back in to verify. Okay? Right? So, I
+need to verify if this uh invoice number
+is valid. And a bot can't know this
+unless it searches it somewhere. Right?
+It searches it in your back end. That's
+why everything here is so custom is
+because however many backends there are
+perhaps however many use cases you have
+to build. So, I can never build this out
+[music] specifically for your use case
+in this video because I don't know your
+backend. I would need to know your
+backend. I need to know an API. I'll
+show you how that looks like in just a
+second. Then I have another step here.
+Step number five which says make post
+request to modify billing details. So I
+want to modify the billing details. I
+have to call an API again and say okay
+so the customer gave me this
+information. Now go to the back end to
+my backend data and modify the [music]
+billing information. That's it. I should
+be done. Now what I need to do is I need
+to create these in Zenesk. I need to
+create these in advanced AI. Okay. So
+now in use cases all good. I'm going to
+go to uh here API integrations and then
+from the top right I have add
+integration. I call this one get billing
+data. I don't give it a description and
+then I uh save it up. Okay, now it
+starts to get little bit technical. So
+in here in environment I have production
+which is my live environment. I can
+create another one to have development
+or testing whatever you want to call it.
+This one by default is called
+production. And then I have the methods.
+So this one has a few options in here.
+Don't get scared. So this is a get which
+is get means like get over here like um
+for any millennial out there who maybe
+knows this joke for Mortal Kombat get
+over here. No. Ah doesn't matter. So
+gets information. This is what it gets
+information. All good. Post is it post
+information. It shows it for you. Put it
+modifies it for you. Uh patch I don't
+know this one. I don't know. Then delete
+obviously it deletes it. Okay. So in
+here I need to paste in my API my API
+URL. So, I have one already built out
+and I'm going to copy it and I'm going
+to paste it in here. Now, anybody who's
+a developer, you can roast me in the
+chat. Go ahead. This is indeed a dummy
+API from Mockfly because as many systems
+as there are out there. This is how many
+API requests or API URLs exist. So, yes,
+this is dummy, but this is just to show
+you how you can actually do this
+yourself. Okay, good. So, this has been
+added and now I go to success. These are
+the scenarios. It's either a success. It
+does find it. It does find this person
+or it doesn't. It's a failure. No, I
+don't know who this person is. Or fall
+back. Fall back is like an additional
+like, "Can we try again?" Okay, but
+we're just going to focus on success.
+[music] When it does find a person, it
+calls the API, looks for an email and an
+invoice number, and it finds it. Success
+message. Okay. So, I'm going to go here
+in success. I'm going to click [music]
+add parameter. I'm going to call this
+one billing data. Billing data. And then
+in query I'm going to say data and I'm
+going to put [music] parenthesis this
+one. Yeah, the I don't know the square
+parenthesis and then uh dot billing
+data. Okay, good. So now test
+production. Huh, doesn't work. Oh yeah,
+because I have to save it first. Save
+this one. And now let's test. Ah, here
+we go. You see this information here?
+Yeah, this is um an example of billing
+information and how a response from the
+API looks like. And this is perfect.
+This is exactly what it's meant to look
+like and this is what it's going to look
+like for you too or should. By the way,
+if you enjoy the content, I'd be really
+grateful if you subscribe to this
+YouTube channel and you let me know what
+you think in the comments and I will get
+back to you. I'd be really grateful and
+thank you so much. Okay, good. So, I
+have built this one. Get information
+from the API. All good. Now, I have to
+build out the right information. Like
+once it gets this information, it shows
+it to the customer. Customer says,
+"Yeah, I want to change my tax ID." and
+then it's going to change the tax ID.
+So, we're going to have to build out
+another API which modifies billing
+details. So, let's go back here to API
+integrations and then I'm going to add
+here an integration. Let's call this one
+modify billing details. Okay. Now, we're
+going to do the same thing. I'm just
+going to copy my billing data. I'm just
+going to copy this, paste it up. Then,
+I'm going to go to success and I'm going
+to add a parameter and I'll call this
+one data. Then I'll call this one data
+hy parentheses 0 dot [music]
+billing data tax id. All right, let's
+save this up. And now let's test
+production. Huh, it didn't work. So in
+here we're going to get post. Save this
+up. Let's go back to scenarios. Let's
+test production. Yes, it worked. Okay.
+Right. I forgot. So this one, as I said
+earlier, this is not a get information.
+[music] This is a post information
+somewhere. and posting information means
+modifying in the back end. Okay, now it
+works. Let me go back to success. Okay,
+good. So this is my response from the
+API. This is a response value example.
+All good. So I have created my API.
+Let's go back to content. Let's go back
+to the use case. Now let me show you the
+coolest part of creating a procedure in
+Zenesk Advanced AI or the coolest part
+about using the Zenesk Advanced AI. So
+in here in uh in this one, I see here a
+text dialogue. a chat dialogue, which is
+the most fun thing ever because you can
+just free type like whatever you want
+it, however you want it, and however you
+think about it, you can just type it in
+here. And let's just do it. So, I'm just
+going to copy this. I'm going to paste
+it, right? Remember when we talked about
+what the steps are. Look, so ask
+customer for their email address, ask
+customer for their invoice number, call
+backend to verify the invoice number.
+So, now what we do is we put a plus
+here. And in actions, check it out. I
+have here some actions and I have some
+API integrations. Remember what we
+created earlier? This is where we get
+billing data and we called it here.
+We're calling the API. We're telling the
+bot, call the API. Go ahead, bro. Just
+do your thing. All right. Ask customers
+what they want to change. Make post
+request to modify billing details. This
+is where step number five, we call the
+API again and we tell, okay, according
+to what they tell you, modify the
+billing details. All right. So, I'm just
+going to do do the plus thing again.
+Just do API integrations and then modify
+billing details. Boom. Now what we do is
+like the coolest part is to generate
+procedure and now we just sit back,
+watch the screen and look how much of a
+hacker we are. Just like in the movies
+where the actors were typing at the
+keyboard and hacking the Pentagon. Well,
+here we go. Here it is. Right? You see
+this generated a procedure for me.
+Start, collect, [music]
+identify, invoice number, collect
+request changes, submit verification
+request, confirm to user. All right. So
+this is what my procedure looks like.
+It's created a version one. And I
+organized the flow into sequential
+subflows. Good for you, bro. Now, let's
+do uh test procedure cuz we want to see
+how this works. So, by default, when I
+click test procedure, this opens up my
+bot like my uh my widget here. And uh
+we're going to test it. So, may I kindly
+ask you to share your email address so
+we can assist you further? Yes, this is
+this one info@ broker.work. This is
+where you can reach out if you need help
+setting this up. By the way, may I
+kindly ask you to provide your invoice
+number so we can assist you further?
+Yes, it's INV dash D. All right.
+Exciting. Okay. Could you please specify
+which billing details you would like to
+update such as address, company name,
+payment method, tax ID, please? This
+where I this is where I bust my balls. I
+need to add my tax [music] ID to all
+these invoice. Thanks for letting me
+know you wish to update your tax ID.
+Could you please provide the new tax ID
+you would like us to use? Yes, use this
+one. Uh, let's go. Your billing details
+have been updated successfully. The new
+tax ID on the file is da d you further.
+You are dismissed. You did well. This
+worked like a charm. I wanted the bot to
+make some mistakes so I can go in and
+show you how you can just go ahead and
+type and just ask it to change stuff and
+it hacks the pentagon again and it
+updates things for you. But it seems
+that it did a good job from the first
+[music] try which is amazing. Okay, so
+this is it. This is how you create one
+flow. Okay, you have to create dozens.
+Depending on your business, you have
+[music] at least half a dozen custom
+ones and a few dozen if you are a
+serious company. This is again bit
+technical. You have to have somebody
+who's a dev involved or somebody who has
+the consultancy and dev skills which is
+very rare. By the way, I have a team
+that is helping me with this stuff. We
+are certified in advanced AI and uh
+Zendes partners, resellers and yeah, we
+live and breathe this stuff every day
+and uh you can reach out if you need
+help. Just go to the website roa.work/
+work/offers and you have here get quotes
+and you can get a quote and uh yeah you
+just select how large your team is 50 to
+1k agents and you need optimizing AI
+setup you need an AI setup click this
+one and then you have maybe self-service
+which implies also having knowledge base
+you then continue with what service
+you're coming from Zandesk okay you
+leave your name and email and your role
+and then you get a quote and uh that's
+it you're done now let's see the pricing
+for the Zen stuff so as far as pricing.
+This is why I actually stopped making
+videos cuz it was so unclear what this
+was going to cost. The previous
+discussion with this advanced AI stuff
+was uh platform fee, a setup fee, and
+then a resolution fee, which was very
+greedy in my view. You would also have
+to pay your agent seats of course. And
+you also had to pay advanced AI, which
+is like an add-on. Five different fees
+for just one service. Remember when the
+craze was about these new TVs coming
+out, the really uh thin ones and there
+were a gajillion billion dollars for one
+set TV set and this technology was made
+available. Everybody started making them
+and the prices just dropped. We're in
+that phase where it's dropping. It's
+dropping like crazy. You still have to
+pay for the seats [music] in Zandes for
+the agent seats and then you have to pay
+allegedly only for the resolutions which
+from my understanding check back with me
+again cuz I don't work at Zandas cuz
+just these things come and everybody has
+a different opinion. There was a
+discussion to make everything just
+available based on the resolutions and
+then they changed their minds again and
+you still have to pay for the agent
+seats in Zenesk [music] and now you just
+pay for the resolution not for the
+platform fee, not for the add-on. But
+anyway, I might be confusing you more.
+It's because I'm confused. It's because
+Zenesk is confused. It's because the
+world is confused about what the damn AI
+stuff can do and it can't do. It can
+definitely automize the freak out of
+your business. Not all of it, but most
+of the repetitive stuff. Now, it's
+[music] handled. All good. So,
+supposedly you pay two bucks per
+resolution. So, you don't pay for the
+add-on, you don't pay for the platform
+fee, you just pay for the resolution
+fee. That's good. But two bucks per
+resolution. There was the discussion
+about 1.5 bucks per resolution. I don't
+know anymore, but this is what I think
+is is going to be happening. So, if we
+recap, you pay for the agent seats and
+then you pay for a resolution. And
+that's [music] kind of it. That's all of
+it. That's all you have to pay. Anyway,
+so I hope you enjoyed this video. Please
+subscribe. I'd be very grateful. [music]
+And I will see you in the next one.

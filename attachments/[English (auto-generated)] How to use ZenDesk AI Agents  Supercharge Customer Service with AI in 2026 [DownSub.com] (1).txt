@@ -1,0 +1,302 @@
+AI for customer service is a gamecher,
+enabling businesses like yours to solve
+customer issues faster, provide
+personalized support, and allows for a
+better allocation of human resources.
+Zenesk is a leading customer service
+platform, allowing businesses to
+optimize customer experiences across
+channels. Now, with Zenesk, you can
+launch AI agents to support all areas of
+customer service 24/7. So today I'm
+going to walk you through setting up and
+launching your own AI agents using
+Zenesk. All right, so with that covered,
+let's go ahead and dive in. Now to get
+started with Zenesk to build your own AI
+agents, if you're completely new to this
+customer service platform, simply
+navigate over to your browser and type
+in zenesk.com or feel free to click on
+the link in the description below this
+video and that's going to take you here.
+Then simply add your email, your
+business email, and click on try for
+free. Now, if you're already using this
+platform, you already have a Zenesk
+account, you can skip this sign up
+process and meet us inside. For those
+that are new to Zenesk, let's go ahead
+and quickly navigate through the setup.
+And that's going to give you access to a
+14-day free trial. Add your first name
+and last name. Add your phone number,
+then hit next. Add your company name,
+then your job title, hit next. Add how
+many employees you have at your company.
+Select the language you'd like to use
+inside Zenesk, and add a password. Then
+complete trial signup. Then locate the
+email sent to your inbox and verify your
+account. Okay. So once you've verified
+your email and you've added a few more
+details about your business, you'll be
+taken inside your Zenesk account. Again,
+if you're completely new to Zenesk, I
+will add a complete Zenesk tutorial down
+below in the description for you to
+check out. Today, we'll be focusing on
+building and setting up your own AI
+agents. Okay, so before we do this, what
+can Zenesk AI agents do for your small
+business? Well, you can automate various
+customer support activities like
+resolving issues, providing personalized
+information, solutions, and engaging in
+advanced tasks based on interactions
+like handing refund orders, and sending
+data across other integrated tools.
+Think about an AI agent as a customer
+service representative for your business
+that works 24/7 to enhance your
+customers experiences across your
+different channels. The great thing is
+you can launch your AI agents in just a
+few minutes with Zenesk. Okay, so the
+first thing that we want to do before we
+build our AI agents is to navigate up to
+the different tools that we have access
+to and come down to knowledge. This is
+where we need to add our knowledge
+resources. This is our knowledge base.
+Essentially, a smart knowledge base
+allows our customers to access
+selfservice support. Also is a powerful
+resource to empower your agents as well
+as AI agents. Come down, click on get
+started. Basically, we want to add our
+different resources to our knowledge
+base and activate this knowledge base,
+which will look something like this once
+it's live. And our AI agents will be
+trained on the information added to this
+knowledge base. Okay, let's navigate up
+to add. And you want to take the time to
+add these different resources about your
+business, your brand, your products and
+services. For example, I'm going to add
+an article. Let's quickly add a title.
+And I'm going to add Sheetify projects,
+tools, and features. Everything that you
+can do. Then we can add the content down
+here. Okay. So I've quickly gone ahead
+and added this article and this is all
+about one of the products that we offer
+and all the tools and features that this
+productify projects has to offer small
+businesses. So this is an article that
+our AI agents can leverage to provide
+the right solutions and answers to
+questions for our customers. Okay. So
+with this article we can play around
+with the different formatting options up
+here. Navigate over to the right hand
+side and then come down to placement.
+Select manage sections and we can add
+this article to a specific section. You
+can also add more sections. I'm just
+going to add announcements and click on
+okay. Then navigate down to author. Add
+the author. Who is this visible to?
+Agents and admins. I'm going to select
+everyone as I want my customers to be
+able to access this help center and see
+this article. Add some content tags.
+This is a product tag. Then labels if
+you like. Choose to turn comments on or
+off. Then you can also attach media.
+This could be PDF instructions or
+something else. Okay, so I'm happy with
+this. I'm going to come down and click
+on save. Okay, so we've published our
+first resource onto our knowledge base.
+Again, what you want to do is take the
+time to add more resources to your
+knowledge base. Create sections and
+categories to manage your articles and
+add community topics and posts. Then
+once you've taken the time to add all
+your resources, what we want to do is
+activate our knowledge base. Navigate up
+to help center and then locate general
+settings. You can also find settings
+down here on the lefth hand sidebar and
+under help center settings. This is our
+knowledge base or help center. Navigate
+over to activate and then come down and
+click on activate. Hey guys, just
+quickly did you know that over 90% of
+you that enjoy our free educational
+content have not yet subscribed. It
+would mean a lot to me if you drop a
+comment or hit subscribe if you love
+what I'm creating. This helps us grow
+the channel and motivates me to create
+bigger and more impactful tutorials for
+you to consume for free. Okay, so that
+happy note, thank you in advance and
+let's get back to the video. And your
+help center, your knowledge base will be
+active online. Again, the more resources
+you add, the more helpful your knowledge
+base, your help center will be for your
+customers as well as your agents and AI
+agents. Next, let's navigate up to tools
+and then click on AI agents. Let's go
+ahead and create our first agent. We can
+create AI agents for messaging.
+Automatically resolve customer requests
+on messaging channels using generative
+AI capabilities or for email and web
+form. Automatically resolve customer
+requests via email and web forms using
+auto replies. Let's navigate over to
+manage AI agents for messaging. Then
+navigate over to create AI agent. Add
+your agent name. Sam Sheetify AI agent.
+We want to make sure that our customer
+knows that this is an AI agent. Then
+choose the tone of voice. I'm happy with
+professional. And then navigate down to
+next. Choose your brand. This AI agent
+is for Sheetify CRM. Click on next. Then
+here, what you want to do is take the
+time to test your AI agent. You can
+learn more about testing agents here.
+Chat with your AI agent, generate
+tickets, and more. Then navigate down to
+advanced settings. Navigate over to
+avatar. Here we can add an avatar if we
+like. This could be an image of a robot,
+your brand logo, or something else. Then
+come down to persona. Then add the AI
+agent's persona. Then navigate down
+here. You can choose the length of
+reply. If we click on language here, we
+can choose the language that our AI
+agent communicates in. By default, I'm
+happy with English. We can also add
+translate messages if we like. And then
+we have brand and channels. Down here we
+have channels and we can choose multiple
+channels to connect our AI agent to.
+Click here and then navigate up to the
+top. Click on behavior. Here we can add
+a greeting message if we like after the
+AI agent replies. You can add another
+message here if you like. If a question
+is unknown, then we also want to add an
+option to talk to a real person. Take
+the time to fill out these details. Then
+before you navigate over to publish
+agent, you want to test your agent. When
+you're happy, click on publish AI agent.
+And just like that, your AI agent is
+live. And you can see it's active on one
+channel. Now you can also enable other
+channels. First, you want to navigate
+over to the left hand side. Click on
+channels then come down to messaging.
+Here we have one channel. If we navigate
+up to add channel, we can connect all
+these different channels to Zenesk,
+Facebook Messenger, WhatsApp, Instagram
+direct and all these other channels.
+Then we can simply add the channels that
+we activate as a channel that our AI
+agent can engage with. So take the time
+to add those channels. Again, to
+navigate over to your AI agents, click
+on AI agents. We can manage our AI agent
+that we just created here. You can see
+that AI agent, this is the channel we're
+leveraging. Once we've activated those
+additional channels, simply click on
+edit. Then navigate over to settings and
+locate brand and channels and add the
+additional channels here. Navigate back
+over to AI agents. Then you may want to
+add an AI agent for email and web form.
+The process is similar. And navigate
+through the process of setting this up.
+Now let's navigate back over to channels
+and click on messaging. And this is the
+channel that we have set up for our AI
+agent. What we can do is click on edit.
+And here you can see what the chat will
+look like. This is the chat widget here.
+Navigate down to next. And this is the
+code that we want to embed on our
+website. We want this widget to be
+visible to all our customers from our
+website. Simply copy this code and add
+that to your website. You can also email
+the code to a team member to help you do
+this. You also want to navigate down
+here and click on automatically embed
+web widget into your help center.
+Remember, we made our help center our
+knowledge base live which we can then
+add to our website. in our footer menu,
+our primary menu or in different
+locations across our different channels
+and websites. Now, our potential
+customers, customers can access this
+chat widget with our AI agent on our
+website once we embed this code and on
+our help center. Then, simply click on
+next. Customize your appearance. Next
+again, and then allow your customers to
+switch between channels. Here you want
+to add Instagram, Facebook Messenger,
+and WhatsApp. And then navigate down the
+page. Add your style, response, wait
+time, and authentification, and click on
+save. Again, you can test this out if
+you like, as well as test the AI agent.
+Now, Zenesk can be quite complicated,
+however, can be a great option if you're
+already using Zenesk to manage all your
+customer experiences. It is an
+all-in-one centralized place for all
+your customer service activities. Now,
+if you're just after an AI agent, a
+powerful platform that allows you to
+build your own custom AI agents, then I
+suggest checking out Jot Form. This is a
+powerful form and AI agent builder. I
+personally use Jot Form for building all
+my AI agents. If you're interested in
+learning more about Jot Form and
+building AI agents for your business in
+just a few minutes without using any
+code similar to Zenesk, then what I'll
+do is add a comprehensive tutorial down
+below in the description for you to
+check out. However, that is it for this
+brief tutorial showing you how you can
+use your Zenesk account to create and
+add AI agents across your different
+channels. And there we have it, guys.
+That is it for this AI agent tutorial
+showing you how you can use Zenesk to
+build your own AI agents. Now, if you
+have any questions about this tutorial,
+make sure to pop them down below. And
+with that said, thank you so much for
+watching this tutorial all the way
+through to the end. If you got value,
+make sure you leave a like and subscribe
+to this channel. And that way, I'll see
+you in the next video. Take care,
+everyone.

@@ -1,0 +1,1244 @@
+Welcome to my complete Zenesk tutorial
+where we're going to learn this custom
+service platform from scratch. If you're
+looking to create a more customercentric
+experience and streamline your support
+processes, then you're in the right
+place. In this tutorial, we'll cover
+everything from creating an account and
+navigating Zenesk's interface to adding
+and categorizing users, managing
+tickets, building a custom help center,
+using macros, triggers, and automations
+to speed up repetitive tasks, adding and
+managing other support channels,
+customizing everything we've built, and
+integrating thirdparty apps using the
+Zenesk marketplace. Each chapter is
+packed with examples, on-screen demos,
+tips, and best practices. Here's our
+plan for the video. You'll find the
+timestamps right here, so you can jump
+to any section you need. And a quick
+heads up, if you want to try Zenesk, use
+my link in the description. It takes you
+straight to the homepage where you can
+sign up for a free account. No credit
+card needed. You'll not only get access
+to a 14-day free trial, but you'll help
+support the channel at no extra cost to
+you. Thank you very much. And now, let's
+get started. Chapter one, signing up for
+Zenesk. Once you've clicked the link in
+the description, you'll get started by
+entering your work email into the field
+and clicking next. Follow the on-creen
+instructions until you get to the final
+step, creating a password. All right.
+Create a strong password and then click
+complete trial signup. To continue,
+you'll be asked to verify your email
+address. I'll select open Gmail. Open
+the Zenesk email at the top of my inbox
+and click verify your account. You'll be
+automatically redirected back to Zenesk
+to get started. Click let's go to
+activate your free trial. We're not
+quite done with the onboarding process.
+Now, Zenesk is going to ask for a bit
+more information regarding your
+business. Make sure to spend the time to
+answer these four questions. It will
+save you quite a bit of time down the
+road. After adding your business's
+website and support number, click next.
+While enabling autoresponse is optional,
+I highly recommend it. Click let's do
+it. For this tutorial, I'm going to keep
+the content suggested by Zenesk and
+click next. After that, you'll be
+prompted to add team members by entering
+their email and selecting their role.
+While I'll be skipping this step today,
+I'll walk you through the two roles you
+can assign your employees on this page.
+Agents and admins. Agents are your
+support team members who work on
+tickets. They can view and respond to
+tickets. Since each support agent needs
+their own license, adding agents can get
+expensive. Depending on your plan, a
+single agent costs anywhere from $19 to
+$115 a month. Admins, meanwhile, can
+view and respond to customer tickets as
+well as access and edit the back end of
+your Zenesk interface to add, delete,
+and edit core functionalities. Now,
+Zenesk will try to walk you through a
+test ticket. Click solve a test ticket.
+This is something we'll look at in
+chapter 4. So, for now, I'll click the
+home icon in the upper left to move to
+the dashboard. And there we go. With
+your account up and running, I'll show
+you how to navigate Zenesk's interface.
+Chapter 2, Zenesk interface tour. Your
+dashboard is divided into two main
+sections. We'll start with the left
+sidebar before looking at the top
+toolbar. Starting in the top left,
+you'll see the home icon. No matter
+where you are in the app, you can always
+click this to get back to your central
+dashboard. View tickets. Next up is the
+views menu, but I'll be calling it the
+view tickets menu for obvious reasons.
+You can view and sort through all your
+tickets. We'll see how to manage tickets
+more in the next chapter. So, let's move
+on. Customers. This is where you can
+add, search, and manage your customers.
+Organizations. Customers can be grouped
+into various organizations based on
+specific criteria. We'll talk more about
+this in chapter 3. reporting where you
+can view all your Zenesk metrics,
+tickets, customer inquiries, user
+engagements, average response time, etc.
+in one spot. While we don't have time to
+explore this section during today's
+video, know that this section is highly
+customizable. Whatever data point you're
+looking for can be found. Last up is the
+gear icon, admin. Clicking on the gear
+opens the admin center in a new tab.
+There's too much going on here to cover
+all at once, but this is where you'll
+manage your accounts, oversee workflows,
+set up AI agents, build automations, and
+more. For now, let's close this tab and
+head back to the other one. Click on the
+home icon to head back to the dashboard
+to continue our tour. The top toolbar,
+going from left to right, the first
+thing you'll see is tabs for any tickets
+or other items you have open. Next,
+there is a plus add button. This is
+where you can create new tickets, users,
+or organizations. It also lets you
+search. Let's click that. The search
+function opens in a new tab where you'll
+be able to search across tickets, help
+desk articles, users, organizations, and
+side conversations to coordinate with
+other agents or members of your team.
+You can delete tabs or tickets by
+clicking the X right here. You can also
+search by clicking the magnifying glass
+over toward the right, but it'll be a
+more compressed menu that's not easy to
+navigate. The conversations window,
+meanwhile, lets you quickly find
+unanswered chats and messages. The phone
+icon is where an agent can make and
+receive calls. The bell icon shows all
+notifications. Hang in there, we're
+almost done. Next up are four blocks
+aried in a grid called the product
+switcher. This feature allows you to
+quickly switch between Zenesk products,
+eg open the chat feature, view
+analytics, see sales, etc. The question
+mark icon pulls up a help menu. Right
+now, this will recommend onboarding
+tutorials, but later on it'll be where
+you can browse support articles and ask
+questions. Lastly, we have the account
+menu where you can set your status, eg
+online or away, manage the applications
+display, light or dark mode, access
+Zenesk support, and sign out of your
+accounts. Now, let's take the time to
+discuss users and roles in Zenesk.
+Basically, how to add your team to help
+you support customers and what each role
+can do. Chapter three, user management
+and roles. When you invite team members
+to join you in Zenesk, you'll assign
+them a role. Zenesk has four different
+roles: end users, customers, agents,
+administrators, and a special role
+called light agents. Since we already
+talked about agents and administrators
+back in chapter 1, I'll only be talking
+about end users and light agents. End
+users, these are your customers. End
+users can create and view their own
+tickets. They cannot access the agent
+interface. They interact via email or
+the help center. Light agents. Light
+agents are a role designed for internal
+stakeholders who need to access tickets
+but do not handle tickets directly.
+Light agents cannot send public replies
+to customers. They can only add internal
+notes, be CCd, and view tickets. This is
+useful if you have a product manager or
+developer who isn't a support agent, but
+you want them to be able to see tickets,
+provide advice, and be kept in the loop.
+Light agents do not need an agent
+license. Important note, technically
+there's a fifth role, contributor. There
+is a little functional difference
+between a light agent and a contributor,
+except that you'll need to give a
+contributor access to most tickets
+manually. It is not worth exploring it
+in greater detail at this point. If
+someone needs access to tickets, grant
+them the light agent role. Let's add an
+agent to your account so you can get a
+feel for the process. Click on the cog
+wheel in the left sidebar to open the
+admin center. Click on people and select
+team members. Click create team member
+in the upper right. Enter their name and
+email. Click next in the bottom right
+and select agent from the drop- down
+list. Click save. And there we go. That
+will send an onboarding email to your
+team member assigning them the proper
+role. Now, there are two other ways to
+group your users beyond roles, groups
+and organizations. Groups are simply
+collections of agents used for assigning
+tickets, eg billing, and technical could
+be two groups. To create a group, click
+on people and select groups. Click add
+group. I'll name this group billing and
+set the description to payment disputes
+and resolutions. No, do not check the
+box next to set as default unless you
+have only one group for all your agents.
+Next, I'll look to the right, hit the
+plus icon next to my accounts, and then
+click save. There we go. We won't spend
+as much time on organizations today
+because they're only useful for B2B
+companies. In short, you can sort users
+by a specific domain, like their company
+website, and set up ticket permissions
+so they can only see tickets for their
+organization. All right. So, now that
+you're familiar with Zenesk's interface
+and understand the different user types
+as well as the basics of groups and
+organizations, let's dive into tickets,
+the most important feature of Zenesk.
+Chapter four, tickets. Tickets are the
+heart of Zenesk. Every customer request
+or support issue becomes a ticket. A
+ticket is essentially a record of the
+entire support conversation, actions
+taken by your agent and its overall
+status. Where do tickets come from? They
+can be generated from various channels.
+Email, a contact form on your website or
+help center, live chat sessions,
+messaging apps like WhatsApp or Facebook
+Messenger, phone calls with Zenesk's
+call center, or even created manually by
+agents. Let's click on views in the
+sidebar to pull up all of our tickets.
+There will be sample tickets available
+under the view your unsolved tickets. Go
+ahead and open the sample ticket. Our
+products ethically source. The anatomy
+of a ticket. Tickets are divided into
+several parts. The middle section is the
+conversation thread. The back and forth
+messages between customers and support.
+At the top of the ticket, you will see
+the ticket subject and just below it,
+the method it was submitted, eg via
+sample or form. On the left side of your
+screen, you will see ticket fields.
+These include things like requester, the
+customer who submitted the ticket.
+Assigene, which agent or group of agents
+is responsible for managing the ticket.
+Followers, this is where you can give
+another agent or admin access to the
+conversation. Adding them as a follower
+will not let them interact with the
+customer. Instead, they'll join in view
+only mode. You are essentially CCing
+them. Status, the stage of the ticket in
+its life cycle, like new, open, pending,
+or closed. Priority, how you can mark a
+ticket's importance, eg low or high.
+Type, an optional feature to categorize
+tickets, eg question or incidents. Tags,
+labels, often generated behind the
+scenes or by fields that can be attached
+to tickets. They can trigger automated
+workflows when you get more advanced. On
+the right side is the customer context
+panel where you can see info about the
+customer who submitted the ticket you're
+currently viewing. Responding to tickets
+in the tickets main conversation area,
+you'll see the customer's initial
+message at the top. Below that, there's
+a box for you to write a reply. Zenesk's
+ticket editor has two modes: public
+reply and internal reply. Public reply
+is the default. That's a response the
+customer will see. An internal note is a
+private comments for your team's eyes
+only. You can toggle between these
+options by simply clicking on public
+reply and switching between them. Let's
+look at the bottom of the conversation
+interface. When typing your reply, you
+have a formatting toolbar where you can
+format text, choose emojis, and add
+attachments and links directly in your
+response. If the customer emailed
+screenshots or files along with their
+ticket, they'll appear at the beginning
+of the conversation. Submitting and
+updating the ticket. After writing a
+reply or notes, you need to submit the
+ticket update. There is a submit button
+at the bottom with a drop-own that lets
+you choose the status in one action, eg
+submit as open or submit as pending. By
+clicking the button, your reply is saved
+and sent. For example, I'll type the
+following message. You're welcome. Have
+a great day and select submit as solved
+from the drop- down menu. On the right
+hand side of your screen, you'll see
+that the status has updated in
+interaction history. The ticket is now
+solved. Before we leave the ticket
+section behind, there's one incredibly
+helpful tool I want to address. Look in
+the bottom left of the ticket window and
+you will see a field called apply macro.
+Macros are can responses or actions you
+can apply to tickets with one click.
+Zenesk includes some default macros like
+close and redirect to topics or customer
+not responding. Applying a macro sends a
+pre-written message to the customer and
+updates fields at the same time. For
+instance, sets the status to solved or
+pending. Important note, unlike triggers
+or automations, macros are applied
+manually by the agents during ticket
+handling. They are a productivity
+booster. Instead of typing the same
+answer 1 10,00 times, create a macro for
+it. Now you've got the hang of what
+tickets are and how to do basic actions.
+Reply to customers, make an internal
+note, assign a ticket to an agent,
+change a status, etc. Next, we'll
+explore setting up your help center,
+which is another big part of providing
+support, and can reduce the number of
+tickets by helping customers find the
+answer they're looking for on their own.
+Chapter five, setting up your help
+center. The help center should be a
+knowledge base where you can publish
+frequently asked articles, how-to
+guides, and other helpful content for
+your users. If you want, it can include
+a community forum and a customer portal
+for tracking tickets. Our goal in this
+chapter is to get your help center
+enabled and publish your first simple
+article. Enabling help center. Only
+admins can enable the help center for
+the first time. To enable it, navigate
+to the Zenesk products menu, the grid
+icon on the top bar, and select
+knowledge. This opens the guide admin
+interface. Click get started, and Zenesk
+will create your help center with a
+default setup. It will launch in edit
+mode, meaning customers won't be able to
+see it. Don't worry, we'll see how to
+launch your help center at the end of
+the video. While you should be
+automatically redirected to the help
+center, there's a chance that Zenesk
+will create your help center but not
+open it for you. If that's the case,
+then you can find it by entering the
+following URL. Now you can configure and
+add contents. Before we do that,
+however, let me explain how the help
+center is organized. Help center
+structure. Categories, sections,
+articles. The help center consists of
+articles grouped into sections and
+sections grouped into categories. A
+category is the top level container and
+will be divided into specific topics.
+For example, account and billing should
+be a category. Each category contains
+one or more sections or subtopics
+related to a specific topic. For
+instance, under account and billing,
+you'd want a section discussing
+subscriptions. Articles are individual
+pages addressing a specific topic, eg
+frequently asked questions and guides.
+For example, an article could be how to
+reset your password or frequently asked
+question getting started with our mobile
+app. With that in mind, let's dive in
+and create our own. Creating categories,
+sections, and articles. This is easy.
+Click add in the upper left corner and
+select category. I'll name this category
+getting started. For description, I'll
+keep it simple and go with this is where
+new users can find all the information
+they need to get started with GV
+Marketing. Click add in the upper right.
+There we go. Let's do the same thing and
+create a section. Click add and select
+section. I'll name this section
+frequently asked questions. The
+description will be frequently asked
+questions about your GV marketing
+experience. Since we're creating a
+section, there are a few new
+configurable options on the left side.
+I'll keep the source language American
+English. As for order articles by, I
+will select alphabetically by title. I
+will do the same for subsections.
+Lastly, we need to select what category
+this section will live within. Select
+getting started, click select, and hit
+add in the upper right. Now that we have
+a category and a section, it's time to
+add an article. You know the drill.
+Click add and select article. Zenesk
+will try to give you a tour of the new
+writing editor. I'm going to exit out of
+this for now. This opens the article
+editor, which closely resembles a word
+processor like Google Docs or Microsoft
+Word. You'll start by giving the article
+a title. I'll name it, "How do I know
+which plan is right for me?" In the
+content body, type a few lines. You can
+use formatting, bullet points, and
+images, but I recommend keeping it as
+simple as possible. For now, I'm just
+going to copy and paste the plans
+offered on my website. All right. Now
+that the article is ready to go, it's
+time to look through the article
+settings on the right. The first thing
+you can adjust is the management
+permissions which determine who can
+edit, publish, and dellist the article.
+Keep this set to administrators. Next,
+we'll choose the section for the article
+to appear in. Click manage sections.
+Select getting started. Choose
+frequently asked questions and hit okay.
+If you want, it's also possible to
+change the credited author. The really
+important sections come next. You can
+choose whether the article is visible to
+all your users, admins, agents, light
+agents, end users, and visitors without
+an accounts, or just to a specific
+group, eg agents. For an article like
+this, you'll want to select everyone.
+Now, I'll quickly gloss over tags and
+labels, but these are both very
+important. You'll want to spend the time
+to do this, right? Content tags are a
+way for you to group similar articles
+for your end users. For example, a tag
+for this article could be payments.
+Labels, meanwhile, are essentially
+keywords. Labels are indexed by search
+engines like Google and will help or
+harm your pages SER search engine
+results page ranking. Spend the time to
+develop keyword-rich, relevant, and
+competitive labels for each of your
+articles to boost the overall visibility
+of your help center. As for enabling
+comments, that's up to you. for a
+getting started FAQ. It doesn't seem
+like comments are necessary, so I'll be
+turning them off. I also won't bother
+with promoting the article, but this can
+be helpful when announcing new updates.
+All right, with everything done, I
+finally hit save in the bottom right.
+And there we go. Let's head back to the
+homepage of the help center by clicking
+on the grid in the upper right and
+selecting knowledge. Now that the help
+center's got its first article, let's
+see how you can customize it and make it
+your own. Branding and customizing. Out
+of the box, your help center will have
+Zenesk's placeholder branding and use a
+Zenesk subdomain. You'll want to brand
+it for your company. In the upper right
+corner, click Knowledge Admin. In this
+menu, click on the I icon in the left
+sidebar to open the customize design
+window. This page allows you to import
+new themes or customize your current one
+by modifying your help center layout.
+For starters, click add theme and select
+add marketplace theme. While some can be
+a bit pricey, there are over 400
+different templates for you to choose
+from, no matter what theme you
+ultimately use. However, customizing
+them works the same. Let's close out
+this tab so I can show you. Okay. See
+the heading called live theme? Click
+customize in the bottom right corner. In
+this window, you can make the theme your
+own by uploading your logo, selecting
+colors, changing the typography, and
+much more. If you've used a website
+builder like Wix or Squarespace, you
+should find this layout very familiar.
+Adding new sections is essentially drag
+and drop, and customizing most details
+is as easy as changing a setting and
+watching it take effect. All right, now
+before we move on, let's activate the
+help center so it's visible to your
+customers. Activation. The help center
+has been in setup mode this entire time,
+only visible to agents and other
+administrators. To make it visible to
+end users, open the grid in the upper
+right and select knowledge. On the
+homepage, select knowledge admin. Click
+the cog wheel at the bottom of the left
+sidebar to open help center settings. At
+the very top of the page, you'll see a
+button that says activate. While you
+could just click on that, we'll take a
+moment to look around first. This window
+is the one that matters most. Here you
+can set up and manage content moderation
+policies, user profiles, and adjust
+security protocols. I have only one more
+thing to say. Scroll down to the bottom
+of the page and under integrations, turn
+off powered by Zenesk logo. Now your
+help censors pages will be free of the
+Zenesk logo. Okay. Scroll back up to the
+top of the page, click activate, and
+confirm. Now customers who navigate to
+your help center can view the website.
+All right, we've covered tickets and the
+help center, which are the two core
+pillars of Zenesk. Next, we'll explore
+some tools to automate your support
+team's workflow and make them more
+efficient. Triggers, automations, and
+macros. Chapter six, using triggers,
+automations, and macros. Zenesk has
+powerful automation features to save you
+time and ensure nothing falls through
+the cracks. At first, the terminology
+can be confusing, so let's clarify what
+each is. Macros. We already touched on
+these in the ticket section, so I'll
+keep it short. Macros are predefined
+responses or actions that agents
+manually apply to tickets to cut down on
+repetitive tasks. Triggers. Triggers are
+if then rules that run automatically
+when a ticket is created or updated. If
+conditions are met, they execute
+immediately after a ticket change.
+Triggers are the backbone of automation
+in Zenesk. Zenesk comes with some
+default triggers, eg notify requesttor
+of common update which emails the
+customer when an agent replies to the
+query. Automations. Automations are
+similar to triggers. They also have
+conditions and actions, but they run on
+a timebased schedule, eg once per hour
+rather than immediately. They review all
+tickets and take action on those that
+meet timebased criteria. In other words,
+automations handle tasks such as ticket
+has been in pending status for 24 hours,
+send follow-up message to customer. By
+default, automations run hourly on
+tickets that are still open. As we'll
+soon see, this will be important to keep
+in mind when building your automations.
+Let's do a simple example of each so you
+can get a feel for the process. Creating
+a macro. Suppose you find yourself often
+sending a thank you for contacting us,
+we'll get back to you soon message.
+Well, let's make that a macro. Go to the
+admin center by clicking the cog wheel
+in the left sidebar. Open workspaces,
+the desktop icon, and select macros.
+Click create macro in the upper right
+corner. Let's name it initial customer
+acknowledgements. Add a suitable
+description, eg send macro immediately
+on receiving a new query, and keep it
+available for all agents. Click add
+action. From the drop- down menu, we
+will select what we want the ticket to
+do. For example, I'll scroll to the
+bottom of this list and select ticket
+status open. You want to ensure it stays
+open when you send this. Now, go ahead
+and select comment/escription from the
+action list. This lets you add a custom
+message. For example, I'll use the
+following. Hi there. Thanks for reaching
+out. We have received your request and
+we'll get back to you shortly. This is
+good enough, but let's make each message
+personalized by addressing the customer
+by their first name. Click on view
+available placeholders. Here we can view
+pre-made functions to add personalized
+information to each message. For this
+example, we'll want to use ticket
+requesttor first name. I'll click copy,
+delete here, and press Ctrl +V. There we
+go. At this point, you could add other
+actions if needed, like setting a
+priority or adding a tag, but I'll click
+create in the bottom right. There we go.
+We've got a new macro setup. Pro tip,
+agents can create personal macros for
+themselves. This is great. It lets
+individual team members take matters
+into their own hands. In the admin
+center, you can view the custom macros
+of each team member by opening people
+and viewing a specific team member.
+Creating a trigger. Now, let's set up a
+simple trigger to auto assign tickets
+with a certain keyword. Imagine you want
+any ticket containing the word billing
+or invoice to automatically get assigned
+to your billing department. This will be
+very similar to creating a macro, but
+we'll be adding if then conditionals
+along with actions. Go to admin center,
+select objects and rules. The icon looks
+like a backward s. And under business
+rules, select triggers. Click create
+trigger. I'll name it assign to billing
+group if billing issue. I'll also give
+it a suitable description, something
+like this trigger automatically assigns
+incoming payment questions to the
+billing department. I'll also set the
+trigger category to notifications. Pro
+tip, the other default trigger category
+is called SLA or standard level
+agreements. This can be helpful if you
+have firm deadlines, eg reply to all
+incoming queries within two business
+days that your agents have to meet. For
+example, it's possible to build a
+trigger that automatically elevates a
+ticket's priority and sends a
+notification if there's no response
+within the a lot of time. All right.
+Now, we have to set our conditions.
+Under meet all of the following
+conditions, I'll click add condition and
+select ticket and subject text. Under
+operator, I'll select contains at least
+one of the following words. In the value
+field, I'll type billing invoice
+payments. I know that looks strange, but
+Zenesk doesn't want you to use colons or
+commas when listing conditionals. The
+words also are not case-sensitive, so
+typing them in lowercase isn't a
+problem. Excellent. Right now, the
+conditional reads like this. If a ticket
+is submitted and the subject text
+includes the word billing, invoice, or
+payments, then do blank. Let's add
+another condition under all again. Click
+add condition and select ticket. This
+time we'll choose ticket status. Under
+operator, select is not and set the
+value to solved. This ensures that the
+trigger will only run on active tickets,
+not resolved ones. Now that our ifs are
+set, it's time to set our dense, the
+actions. Click add action and select
+ticket. There are several options to
+choose from here. It depends on the size
+of your organization. For example, if
+you have only a single member in your
+billing department, then you'll want to
+add them directly. If however, you
+followed along and created a billing
+group, then we'll select group and set
+the value to billing. I'll add another
+action. This time, I'll click on ticket,
+select priority, and set the value to
+high. Click create trigger in the bottom
+right. There we go. Now, whenever a new
+ticket is created, including the words
+billing, invoice, or payments in the
+subject line, it'll be automatically
+assigned to the billing group with a
+high priority alert. And there you have
+it. Before we tackle automations, it's
+worth pointing out that Zenesk has 10
+default triggers that you can view from
+the triggers page. I'm not going to
+spend the time looking through them now.
+Just make sure to double check the
+trigger you're planning to build isn't
+already made. Now, without further ado,
+let's continue creating an automation.
+Let's build a simple reminder
+automation. After 3 days and pending,
+send the customer a reminder email
+asking if they still need help. First
+things first, go to admin center if you
+aren't already there. Open objects and
+rules and click automations. Click add
+automation. I'll name this automation
+pending 3 days reminder to customer.
+Under meet all the following conditions,
+I'll select ticket status category is
+pending. This way, the automation will
+only target tickets that are pending.
+I'll add another all condition by
+clicking the green plus sign. Then go to
+ticket hours since update. Hours since
+update essentially means there's been no
+change in the ticket status, implying
+the customer hasn't responded to the
+latest support message. Now select is
+from the drop-own menu and manually type
+72. Remember automations run a check
+every hour. That's why we're using 72
+here. 72 hours equals 3 days. We have
+more to do before we can set actions.
+Right now the condition says send a
+message to the customer if they haven't
+responded in 3 days. In other words,
+since the automation runs every hour,
+it'll send the reminder message once an
+hour after the 3-day mark. something you
+and your customer don't want. Instead,
+we'll need to get a bit creative here
+and use a tag or a simple word or phrase
+that adds context to a ticket. If that
+sounds confusing, it's not. We'll see
+how it works in a moment. All right,
+let's add another condition. Click the
+green plus icon and select ticket tags
+contains at least one of the following.
+Send reminder. The last phrase there,
+send reminder, will be our tag. Let's
+give it functionality by adding our
+actions. Under actions, I'll select
+notifications, user email, and click
+requester. This will send an email to
+the customer's email address. Now, we
+have to write an email. I'll use the
+following for my subject line. We are
+waiting your response on ticket ID.
+Remember, simply click view available
+placeholders under the email body to
+access a list of all dynamic
+placeholders. For the email body, I'll
+use hello ticket request or first name.
+We haven't heard back from you regarding
+your support request. If you still need
+help, just reply to this email and we'll
+be happy to assist. If we don't hear
+from you, we'll consider the issue
+resolved and close the ticket in a
+couple of days. Thank you. All right.
+Now, let's set up another action.
+Underneath the body text of the email,
+open the drop-own menu to select an
+action. Select ticket add tags and type
+send reminder. Now the message will have
+this tag embedded in it ensuring that
+the condition we set above will fail
+after the first attempt succeeds. In
+other words, the message will only send
+once. Click create automation and you're
+done. Pro tip: always be careful when
+setting tags and choosing actions. Test
+to avoid unintended effects. If two
+automations have similar criteria, both
+could fire at the same time. Use tags or
+status changes to prevent one from
+running when the other is triggered. All
+right, that was a lot, but it sets you
+up to automate tasks so you're not doing
+everything manually. The three we've set
+up will already significantly streamline
+your support seam workflow. Great job.
+Next, let's take a look at the different
+channels you can connect to Zenesk.
+Because the power of Zenesk is managing
+all of your support channels under one
+roof. Chapter seven, managing channels,
+email, chat, messaging, and social.
+Zenesk is omni channel, meaning it can
+handle support inquiries from many
+different sources in one unified
+interface. After all, it wouldn't be
+very helpful if it could only handle
+emails, right? Let's go through each of
+the main channels and how to get started
+with each. Email. This is the first and
+most important channel. When you created
+your accounts, Zenesk provided you a
+default support email address. support
+at your subdomain.zenesk.com.
+This is a working email that will
+generate tickets. You can use it right
+away. Any email sent to that address
+becomes a ticket. However, you'll want
+to replace this with your company
+support email. You'd want emails to that
+address to route into Zenesk. There are
+two ways to set this up. The first
+option is to forward your emails to
+Zenesk. While you can set this up in
+your external inbox, there's a much
+easier way. Open the admin center by
+clicking on the cog wheel in the left
+sidebar and clicking on channels. The
+parallel lines icon with arrows pointing
+in opposite directions. Under talk and
+email, select email. In support
+addresses, you'll see your Zenesk
+generated email. Near that, hover your
+cursor over add select connect external
+address. That will bring up this menu.
+While you can always simply choose email
+forwarding, I strongly recommend using
+the connectors. It'll make your life
+much easier going forward. Follow the
+on-creen instructions to link and verify
+your support address. For now, I'll exit
+out of this window, but keep the email
+tab open. I'll show you the second way
+to set this up, but I strongly recommend
+going with the first option. You can
+create and add additional Zenesk
+provided email addresses. Hover over add
+address and select create new Zenesk
+address. Once this is set up, customers
+won't notice anything different. They'll
+send and receive emails from the same
+addresses, but behind the scenes, those
+emails will now create tickets in
+Zenesk. That's all there is for email.
+Let's move on. Chat and messaging.
+Zenesk includes real-time chat and
+messaging features that can be
+integrated with your website. While
+similar, these two features are
+distinct. Zenesk chat provides real-time
+support, enabling customers to receive
+personalized one-on-one support from an
+agent directly on your website. Zenesk
+messaging is the newer, more flexible
+system that allows conversations to
+occur in real time or across hours, days
+or weeks and across various channels, eg
+email and social. In other words, the
+first is strictly a live chat and the
+second while also able to function as a
+live chat is more flexible. To get
+started, enabling a simple live chat on
+your site is a great first step. Go to
+admin center if you are not already
+there and open channels. Select
+messaging. As you can see, there's
+already a web widget set up for GV
+Marketing. This is the basic live chat
+feature and can be integrated into your
+website. Click the name of your
+messaging app. This is where you'll be
+able to set up the widget. You can see a
+preview of the chat box on the right.
+And on the left are the configurable
+settings. If you want to customize the
+chat box so it uses your company's logo,
+color, and typography, you'll want to
+click manage brands at the top left of
+the page. That's outside the scope of
+today's tutorial. For now, I'll continue
+and I'll rename the channel to live
+chat. This is an internal only name
+designed to help your agents find
+different channels quickly and
+efficiently. So, be specific. Now, I'm
+not going to add a custom privacy note
+here, but you'll want to do this and
+make sure it complies with your local
+data privacy laws. Once you're done,
+click next. Now, you'll copy and paste
+the script Zenesk generates onto your
+website. You'll also want to check the
+box automatically embed web widget in
+your help center. Make sure to check the
+next box that pops up, too. This simply
+lets user information be shared with
+your agents so they can personalize
+their assistance. Once you're done here,
+click next. Lastly, you'll be prompted
+to customize the banner's color, the
+chat box title, and upload a logo. All
+I'll do here is switch the primary color
+to a rich dark blue. Once it looks good,
+click next. That will bring up this page
+where you can enable omni channel
+communication by adding Instagram,
+Facebook Messenger or WhatsApp
+integrations. Towards the bottom of this
+page, you can also further customize the
+widget under style. Write pre-made
+responses to help customers navigate the
+bot. Set a custom wait time, enable,
+disable, or tweak authentication
+settings, eg making a user log in to use
+the feature, or grab the code by
+selecting installation. Setting this up
+for your website will take time, so go
+slow, follow the on-screen instructions,
+and get it just right. Once the widget
+is on your website, running properly,
+and looks great, go ahead and click save
+in the bottom right corner. A
+notification will pop up in the upper
+right, letting you know everything's
+been saved successfully. Pro tip, take
+the time to craft responses that suggest
+relevant articles on your help center.
+Focus on commonly asked questions, eg
+what to do if the GV marketing portal is
+down. This is a great way to reduce
+chats, which will significantly help
+boost response times. So, now that you
+know how to receive and manage your
+emails and chats, let's round out the
+chapter by taking a look at social
+media. Social messaging. This is where
+Zenesk's multi- channelannel approach
+truly shines. You can connect your
+Facebook page, X account, WhatsApp
+number, and more so that messages sent
+by customers on those platforms create
+tickets and allow agents to respond
+directly from Zenesk. As an example,
+I'll demonstrate how to integrate Zenesk
+with your Facebook page because Zenesk
+can actually handle two tasks, posting
+on your Facebook page and managing
+Facebook Messenger chats. Click on
+channels and select Facebook pages.
+Click add your first Facebook page. Log
+into your business's Facebook account
+and verify it's you. Next, select
+capture wall posts and comments as
+tickets. It's that simple. Setting up
+Facebook Messenger as a channel will
+take an additional step. Under channels,
+you'll want to select messaging and in
+the upper right, click add channel and
+select Facebook Messenger. Follow the
+onscreen instructions to link your
+Messenger account with Zenesk. And there
+you go. When people send you a message
+on Messenger, it'll create a new ticket
+in Zenesk. Now, before we wrap up here,
+there's one thing I want to reiterate
+and something I want to introduce.
+Unified conversations. The beauty of
+Zenesk's omni channel approach is that
+all these channels feed into the same
+interface. An agent can reply to an
+email ticket, respond to a live chat,
+and take a phone call all through
+Zenesk. And if a conversation moves from
+one channel to another, eg you start in
+chat and then follow up via email, it'll
+be in the same ticket. No more swapping
+between apps or devices. The last topic
+of this chapter is more technical, so
+pay attention. Agent status. If you plan
+to use real-time channels, ensure agents
+update their status on Zenesk by
+clicking their profile icon in the upper
+right corner. If an agent is online,
+then they'll be notified if a ticket
+assigned to them is created or updated.
+If they're away or offline, however, new
+chats can be deterred to another
+available agent or cued, so your agent
+can handle them when they get back or
+start work the next day. Zenesk handles
+this all internally. Just make sure your
+agents keep their status up to date.
+That about covers it for channels. You
+should be able to engage with customers
+however they reach out and have it all
+end up in Zenesk. Now, next, let's see
+how to customize Zenesk to best serve
+your customers. Chapter 8, additional
+customization. Beyond what we've set up
+already, there are some important
+settings in Zenesk you should configure
+early on to tailor the system to your
+needs and brand. Let's highlight a few.
+Branding the help center and emails. We
+already discussed help center branding
+in chapter 5, so we won't rehash that
+here. Please refer back to that chapter
+if you would like a refresher. For
+emails that go out, eg ticket
+notification emails to customers, you'll
+want to polish and customize the email
+template. From the main dashboard, open
+the admin center and under channels,
+select email. Scroll down until you see
+email templates. While making changes
+here is outside the scope of this
+tutorial, I wanted to show you where the
+setting is and offer this quick
+explanation. Zenesk allows simple HTML
+customization of the email wrapper.
+Think of this as a skin that surrounds
+the email. This is a quick and
+relatively easy way to brand your emails
+with your logo and color scheme. Custom
+ticket fields. You will likely need to
+adjust Zenesk's default ticket fields to
+capture specific information for your
+business. To add a new field, open the
+admin center if you aren't there
+already. Open objects and rules, the
+backward S icon and under tickets, click
+fields. Click add field in the top
+right. Choose the type of field you want
+to add. I'll add a drop-own menu. Give
+it a name, eg issue type. I'll give it a
+description, customer problem. Next up
+are the permissions or who can edit this
+field. Since we'll need the end users to
+fill this out, I'll fill in the bubble
+next to customers can edit. Since this
+field is front-facing, it needs a
+front-facing title and description. I'll
+title it problem and make the
+description, please select the reason
+you're contacting our support. Under
+customers, I will also check the box
+next to required to solve a ticket. Next
+is the important part, the options or
+values customers have to choose from.
+For this example, I'll create three
+different values. Text support, billing
+problem, and other. You'll see that a
+tag has been created for each. This will
+help automate the process on the back
+end. Keep the default value as is and
+click save. There we go. Now there is a
+custom field to capture important data
+with ease. Business hours and holidays.
+If your support operates on specific
+business hours, you'll want to configure
+a schedule in Zenesk. Make sure you're
+in the admin center and open objects and
+rules. Toward the bottom under business
+rules, select schedule. Click add
+schedule. Now all you need to do is set
+your time zone. And by default, the
+workday will run from 9:00 a.m. to 5:00
+p.m. displayed in military time on all
+weekdays. This is easily customizable if
+your business has reduced hours on the
+weekend or has a unique schedule. Simply
+click at the bottom of a time block and
+adjust its size accordingly. You can
+also add working hours on the weekend by
+clicking on the blank field and
+stretching the new block accordingly.
+There's also a tab for holidays. Go
+ahead and click on this. Click add
+holiday. I'll name it Christmas and set
+it to run from Christmas Eve until the
+day after Christmas. After that, I'll
+hit confirm. There we go. Unfortunately,
+setting up holidays is a wholly manual
+process. Still, it's worth it. You do it
+once and then it's taken care of. Once
+you're done, click save in the bottom
+right corner to get your new schedule up
+and running. Pro tip: Schedules are
+important to consider when building
+triggers and automations. For example,
+if a customer submits a ticket outside
+of working hours, an automation can
+recognize that and send a quick message.
+We're currently closed. We'll get back
+to you during normal business hours.
+Let's round out this chapter by quickly
+discussing a few more customization
+options you should be familiar with.
+Security settings. In the admin center
+under accounts, there's a section
+dedicated to security. Here you can set
+who can view the help center, determine
+password policies for all users, enable
+two-factor authentication requirements
+for agents, set up IP restrictions to
+block users from certain countries, eg
+sanctioned nations, from accessing your
+website, and more. Don't get distracted
+by this section. For now, the default
+settings will be good enough. Form
+customization. Earlier, I showed you how
+to make custom fields. You can also
+create custom ticket forms. You manage
+and add new forms in admin center,
+objects and rules, tickets, forms. The
+process is very similar to the one we
+saw earlier. That's all we're going to
+talk about today. So, spend some time
+exploring the admin center. We're nearly
+done. Finally, let's talk about
+thirdparty apps and how to use them with
+Zenesk. Chapter nine, the marketplace.
+Zenesk is not an isolated system. It has
+a rich marketplace of apps and
+integrations where you can connect other
+tools you use to extend Zenesk's
+functionality. It's worth checking out
+even as a beginner because a simple
+integration can save you a lot of time.
+Head over to the admin center by
+clicking the cog wheel at the bottom of
+the left sidebar. At the very bottom of
+this list, you'll see three squares and
+a plus icon arranged in a grid. That's
+the apps and integration section. Open
+it. From the drop-own menu, select Zenex
+support apps. On this page, click
+marketplace in the upper right corner.
+On this page, you'll find almost 2,000
+different apps across 16 different
+categories. Although not all these apps
+are free, quite a few are. Installing
+apps on Zenesk is quick and easy. I'll
+get started by using the search bar on
+the left and searching for Zapier. I'll
+select Zapier and then click get setup.
+You'll have to follow the installation
+steps for your specific app. For Zapier,
+I'll click on the hyperlink right here
+and log into Zapier account. From the
+main dashboard, I'll click on app
+connections in the left sidebar and
+click add connection in the upper right.
+Type Zenesk, select it when it pops up,
+and press add connection. Now, I'll need
+to link Zenesk with Zapier. I'll head
+back over to the Zenesk tab and copy and
+paste my Zenesk domain into this window.
+I'll also enter my signup email. All
+right. Lastly, I'll need my API key.
+I'll head over to the admin center, open
+apps and integrations, and select API
+configuration. Check the box next to
+allow API token access and click save in
+the bottom right corner. With that done,
+now go to API tokens. Name this token
+Zenesk and hit save. Copy the full token
+code and paste it into the Zapier
+window. Finally, hit yes, continue to
+Zenesk. The window will close
+automatically. And if you head back over
+to Zapier, you can see that Zenesk is
+now set up. Now, before we finish
+today's video, I want to briefly tell
+you the difference between apps and
+introduce you to another type of
+integration at your disposal, private
+and public apps. All apps available on
+the marketplace are public. If you have
+in-house devs, they can also build
+private apps just for your Zenesk. Web
+hooks. Web hooks enable you to build
+integrations that subscribe to certain
+activities in Zenesk. In other words,
+web hooks trigger a specific action and
+do something as a result. Eg, if you
+have Slack integrated with Zenesk, send
+your team a Slack notification if a high
+priority ticket is created. While this
+is well beyond the scope of today's
+video, it's something to keep in the
+back of your mind as you get more
+familiar with Zenesk. All right, you now
+have a solid foundation of Zenesk. You
+know how to navigate Zenesk's interface,
+add and categorize users, manage
+tickets, build a custom help center, use
+macros, triggers, and automations to
+speed up repetitive tasks, add and
+manage ancillary support channels,
+customize everything we've built, and
+integrate thirdparty apps using the
+Zenesk marketplace. There is always more
+to learn, and as a beginner, the best
+way to learn is to use it. Start using
+Zenesk to refine your custom support and
+refer back to the chapters of this
+tutorial whenever you need a refresher.
+Share this guide or specific tips with
+anyone else involved so everyone stays
+on the same page. And finally, the best
+way to support my channel is by signing
+up for Zenesk using the link in the
+video description. Remember, you can try
+Zenesk for 2 weeks at absolutely no
+cost. Thank you so much for watching. I
+hope this video was helpful and I'll see
+you in the next

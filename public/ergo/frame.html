@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ergo voice</title>
+  </head>
+  <body>
+    <script type="module">
+      import { engine, localFetch } from "./engine.js";
+
+      const MODELS = "https://huggingface.co/Zyphra/ZONOS3-Mini/resolve/ab25a556ef61a9ce6a4ea8d102e649b4dc06e507/web/";
+      let starting = null;
+
+      function boot() {
+        starting ??= engine.init(
+          (progress) => {
+            parent.postMessage({ type: "ergo-progress", ...progress }, location.origin);
+          },
+          { base: MODELS },
+        );
+        return starting;
+      }
+
+      window.addEventListener("message", async (event) => {
+        if (event.origin !== location.origin) return;
+        const data = event.data;
+        if (!data || data.type !== "ergo-speak" || !event.source) return;
+        try {
+          await boot();
+          const listed = await localFetch("/v2/speakers").then((response) => response.json());
+          const speakers = Array.isArray(listed.speakers) ? listed.speakers : [];
+          const wanted = typeof data.voice === "string" ? data.voice : "";
+          const named = (speaker) => String(speaker.label || speaker.name || "");
+          const match = speakers.find((speaker) => speaker.id === wanted)
+            || speakers.find((speaker) => named(speaker).toLowerCase() === wanted.toLowerCase())
+            || speakers.find((speaker) => named(speaker).toLowerCase() === "savannah")
+            || speakers[0];
+          const voice = match && match.id;
+          if (!voice) throw new Error("Ergo has no voice loaded.");
+          const response = await localFetch("/v1/audio/speech", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({
+              model: "ergo-v3",
+              input: String(data.text || "").slice(0, 1500),
+              voice,
+              response_format: "pcm",
+            }),
+          });
+          if (!response.ok || !response.body) throw new Error((await response.text()) || "Ergo could not read that.");
+          event.source.postMessage({ type: "ergo-pcm-start", id: data.id, rate: 44100 }, location.origin);
+          const reader = response.body.getReader();
+          while (true) {
+            const part = await reader.read();
+            if (part.done) break;
+            if (!part.value?.byteLength) continue;
+            const audio = part.value.buffer.slice(part.value.byteOffset, part.value.byteOffset + part.value.byteLength);
+            event.source.postMessage({ type: "ergo-pcm", id: data.id, audio }, location.origin, [audio]);
+          }
+          event.source.postMessage({ type: "ergo-pcm-end", id: data.id }, location.origin);
+        } catch (cause) {
+          event.source.postMessage({ type: "ergo-error", id: data.id, error: cause instanceof Error ? cause.message : "Ergo could not read that." }, location.origin);
+        }
+      });
+
+      parent.postMessage({ type: "ergo-ready" }, location.origin);
+    </script>
+  </body>
+</html>
